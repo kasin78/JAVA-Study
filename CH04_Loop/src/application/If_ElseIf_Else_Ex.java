@@ -11,7 +11,7 @@ public class If_ElseIf_Else_Ex {
 		int x = scanner.nextInt();
 		scanner.close();
 		
-		if (x == 1) {
+		/* if (x == 1) {
 			System.out.println("헬로우");
 		}
 		else if (x == 2) {
@@ -22,8 +22,26 @@ public class If_ElseIf_Else_Ex {
 		}
 		else {
 			System.out.println("잘못된 옵션입니다");
+		} */
+		
+		// Switch case문으로 표현
+		switch (x) {
+			case 1:
+				System.out.println("헬로우");
+				break;
+			case 2:
+				System.out.println("안녕 ?");
+				break;
+			case 3:
+				System.out.println("프로그램 종료");
+				break;
+			default:
+				System.out.println("잘못된 옵션입니다");
+				break;
+				
 		}
-
+		
+ 
 	}
 
 }
