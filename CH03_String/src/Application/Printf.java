@@ -8,6 +8,7 @@ public class Printf {
 		// %d : 정수 형식으로 출력
 		// %s : 문자열 형식으로 출력
 		// %c : 문자 형식으로 출력
+		
 		int age = 25;
 		String addr = "부산진구";
 		

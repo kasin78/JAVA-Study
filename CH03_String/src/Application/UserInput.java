@@ -25,6 +25,7 @@ public class UserInput {
 		
 		double C = scanner.nextDouble();
 		double F = (C * 9/5) + 32;
+		scanner.close();
 		
 		System.out.println(F + "F");
 		System.out.printf("섭씨 %.1fC는 화씨 %.1fF 이다", C, F);

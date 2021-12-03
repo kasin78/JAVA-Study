@@ -17,7 +17,7 @@ public class Arithmetic {
 		System.out.println(9 / 4.0); // 정수/실수 이때 큰 값(바이트) 타입으로 출력
 									 // [int = 4바이트, double = 8바이트]
 		System.out.println(3 * 4);
-		System.out.println(3 * 4.0); // 실수로 결과 출력
+		System.out.println(3 * 4.0); // 정수*실수 실수로 결과 출력
 		System.out.println(3 - 4);
 
 	}

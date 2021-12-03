@@ -11,7 +11,7 @@ public class Increment {
 		System.out.println(count); // 0 + 1 = 1
 		
 		count += 1; 
-	 // count -= 1; // count = count - 1 
+	 // count -= 1;
 		System.out.println(count); // 1 + 1 = 2
 		
 		count++;
@@ -28,16 +28,13 @@ public class Increment {
 		int minus = 5;
 		
 		minus = minus - 1;
-		System.out.println(minus);
+		System.out.println(minus); // 4
 		
-		minus -= 1;
-		System.out.println(minus);
+		System.out.println(minus -= 1); // 3
 		
-		minus--;
-		System.out.println(minus);
+		System.out.println(minus--); // 3 선출력, -1 => 2를 리턴
 		
-		--minus;
-		System.out.println(minus);
+		System.out.println(--minus); // 2-1 = 1을 리턴
 	}
 
 }

@@ -1,6 +1,6 @@
 package application;
 
-public class Condition {
+public class Conditions {
 
 	public static void main(String[] args) {
 		// 조건문
