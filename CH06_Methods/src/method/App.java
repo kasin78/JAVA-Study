@@ -15,7 +15,6 @@ public class App {
 		
 		System.out.println(p1.name);
 		System.out.println(p1.age);
-		
 		p1.sayHello();
 		
 		Person p2 = new Person();

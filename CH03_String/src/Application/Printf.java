@@ -11,7 +11,7 @@ public class Printf {
 		int age = 25;
 		String addr = "부산진구";
 		
-		System.out.printf("내 나이는 %d살 입니다.\n", age); // age 값이 %d 자리에 정수형식으로 출력
+		System.out.printf("내 나이는 %d살 입니다.\n", age); // age 값이 %d 자리에 정수 형식으로 출력
 		System.out.printf("내 나이는 %d살이고, %s에 살고 있습니다.\n", age, addr); 
 						// age 값이 %d 자리에 정수 형식으로 addr 값이 %s에 문자열 형식으로 출력
 		

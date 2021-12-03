@@ -10,8 +10,8 @@ public class CheckPassLimit_DoWhile {
 		// 패스워드 3회 틀릴시 "접속 거부"
 		
 		final String USER_PASSWORD = "hello";
-		String password = "";
-		int count = 1;
+		String password = ""; // 입력된 패스워드를 저장해줄 변수
+		int count = 1; // 비밀번호 틀리는 카운트
 		
 		Scanner scanner = new Scanner(System.in);
 		
@@ -22,17 +22,19 @@ public class CheckPassLimit_DoWhile {
 				System.out.println("접속 거부");
 				break;
 			}
+			else if (password.equals(USER_PASSWORD)) {
+				System.out.println("접속 승인");
+				break;
+			} 
 			else {
-				System.out.printf("비번이 %d번 틀렸습니다\n", count);
+			System.out.printf("비번이 %d번 틀렸습니다\n", count);
 			}
 			count++;	
 		} while (!password.equals(USER_PASSWORD));
 		
 		scanner.close();
 		
-		if (password.equals(USER_PASSWORD)) {
-			System.out.println("접속 승인");
-		}
+
 		
 			
 		

@@ -18,7 +18,7 @@ public class UserInput {
 
 		System.out.print("실수를 입력해주세요 : ");
 		double z = scanner.nextDouble();
-		System.out.print(z);
+		System.out.println(z);
 		
 		
 		System.out.print("온도를 입력해 주세요 : ");
@@ -27,7 +27,7 @@ public class UserInput {
 		double F = (C * 9/5) + 32;
 		
 		System.out.println(F + "F");
-		System.out.printf("섭씨 %f 는 화씨 %.1f 이다", C, F);
+		System.out.printf("섭씨 %.1fC는 화씨 %.1fF 이다", C, F);
 		
 
 	}

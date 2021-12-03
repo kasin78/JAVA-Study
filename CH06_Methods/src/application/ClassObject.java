@@ -20,7 +20,7 @@ public class ClassObject {
 		
 		p1.name = "펭수";
 		
-		Person p2 = new Person();
+		Person p2 = new Person(); // 위의 2 코드 문단을 한번에 축약하면 이 형태
 		p2.name = "길동";
 		
 		Person p3 = new Person();

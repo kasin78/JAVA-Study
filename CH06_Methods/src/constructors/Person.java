@@ -5,6 +5,7 @@ public class Person {
 	private double height;
 	
 	// 생성자 메소드 : public + 클래스명(), 리턴 타입 없음
+		// 생성자 메소드는 클래스명과 같다
 	public Person() { // 기본 생성자(생략가능)
 		name = "익명";
 		height = 170;

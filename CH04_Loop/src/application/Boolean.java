@@ -14,7 +14,7 @@ public class Boolean {
 		boolean c3 = 4 > 5;
 		System.out.println("조건 3 : " + c3);
 		
-		// == :같다 = 참, 같지 않다 = 거짓
+		// == : 같다 = 참, 같지 않다 = 거짓
 		boolean c4 = 4 == 5;
 		System.out.println("조건 4 : " + c4);
 		

@@ -19,7 +19,7 @@ public class StringArray2 {
 		
 		System.out.println(texts); // 배열 주소가 나옴
 	
-		System.out.println(texts[0]); // 문자열 배열 3칸이 있으나 칸 안에 데이터는 없음
+		System.out.println(texts[0]); // 문자열 배열 3칸이 있으나 칸 안에 데이터는 없음(null)
 		
 		texts[0] = new String("하이!"); // 배열 칸에 데이터 삽입
 		texts[1] = "안녕?";

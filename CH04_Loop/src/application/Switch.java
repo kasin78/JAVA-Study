@@ -18,7 +18,7 @@ public class Switch {
 			case 10: // 옵션 변수 케이스가 10과 같을때
 				System.out.println("프로그램 종료");
 				break;
-			default: // else와 같음 위의 케이스에 맞는 것이 없을 때 실행
+			default: // else와 같음 위의 케이스들 모두와 맞는 것이 없을 때 실행
 				System.out.println("잘못된 옵션번호");
 				break;
 			}

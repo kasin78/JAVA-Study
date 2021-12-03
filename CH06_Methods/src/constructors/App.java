@@ -14,7 +14,7 @@ public class App {
 		p2.setHeight(172.5);
 		
 		Person p3 = new Person();
-		// 생성자에 초기값으로 객체 생성
+		// 생성자 초기값으로 객체 생성
 		
 		System.out.printf("이름 : %s , 키 : %.1f \n", p1.getName(), p1.getHeight());
 		System.out.printf("이름 : %s , 키 : %.1f \n", p2.getName(), p2.getHeight());

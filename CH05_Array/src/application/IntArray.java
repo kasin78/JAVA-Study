@@ -21,7 +21,7 @@ public class IntArray {
 		System.out.printf("인덱스 번호 %d의 값은 %d이다 \n", 3, numbers[3]);
 		
         // System.out.printf("인덱스 번호 %d의 값은 %d이다 \n", 4, numbers[4]);
-		// numbers 인덱스 4 존재하지 않음
+		// numbers 인덱스 4 존재하지 않음(오류)
 		
 		
 	}

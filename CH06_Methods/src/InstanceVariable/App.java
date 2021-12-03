@@ -6,7 +6,7 @@ public class App {
 		// 같은 패키지 안에 있는 Person 클래스를 사용한다
 		// 스캐너를 사용할려면 스캐너 클래스를 import 해야됨
 			// 같은 패키지 안에 있는 클래스는 바로 사용 가능
-		Person p1 = new Person();
+		Person p1 = new Person(); // Person 클래스의 새로운 객체를 생성, p1은 참조 변수
 		p1.name = "홍길동";
 		p1.age = 20;
 		

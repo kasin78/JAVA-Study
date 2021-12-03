@@ -10,7 +10,7 @@ public class Person {
 		height = 170;
 		System.out.println("한 사람을 생성!");
 	}
-	// 매개변수 입력 없으면 위의 데이터 입력
+	// 매개변수 입력 없으면 위의 데이터가 기본값으로 입력
 	
 	public Person(String name, double height) {
 		this.name = name;
@@ -19,11 +19,6 @@ public class Person {
 	}
 	// 매개변수 있을 시 매개변수 데이터 입력
 	
-	// toString 메소드
-	public String toString() {
-		return "이름 : " + name + ", 키 : " + height;
-	}
-	
 	// get set method
 	public void setName (String name) {
 		this.name = name;
@@ -31,6 +26,11 @@ public class Person {
 	public String getName () {
 		return name;
 	}
+	
+	// toString 메소드
+		public String toString() {
+			return "이름 : " + name + ", 키 : " + height;
+		}
 	
 	public void setHeight (double height) {
 		this.height = height;

@@ -24,7 +24,8 @@ public class CheckPassLimit {
 				System.out.println("접속 승인");
 				accessOK = true;
 				break;
-			} else {
+			} 
+			else {
 				System.out.printf("비번이 %d번 틀렸습니다. \n", i);
 			}
 		}
