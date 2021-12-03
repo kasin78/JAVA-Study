@@ -6,5 +6,4 @@ public class TempOutOfRangeException extends Exception {
 	public TempOutOfRangeException(String message) {
 		super(message); // 입력된 메세지로 새 예외 객체 생성	
 	}
-	
 }

@@ -7,7 +7,6 @@ public class Thermostat {
 		if (temperature < 0 || temperature > 35) {
 			throw new Exception("온도가 비정상 입니다"); // 새 예외를 생성(console 참조)
 		}
-		
 		System.out.println("온도 세팅 : " + temperature);
 	}
 }
