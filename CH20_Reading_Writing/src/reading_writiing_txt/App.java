@@ -16,7 +16,7 @@ public class App {
 		
 		// 쓰기 : text.txt에 위의 text 내용을 적기
 		// Files 클래스의 스테틱 메소드 write(적을 파일의 경로, 적을 내용(byte단위))
-			// 파일이 없을 경우 새로 만들어줌(프로젝트 실행전 text.txt 파일 없었음)
+			// 파일이 없을 경우 새로 만들어줌(App 실행전 text.txt 파일 없었음)
 		Files.write(path, text.getBytes());
 		
 		// 읽기
