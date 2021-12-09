@@ -4,7 +4,7 @@ import java.util.ArrayList;
 
 public class App {
 	public static void main(String[] args) {
-		
+
 		ArrayList<Integer> list = new ArrayList<>(); // 정수타입 리스트 생성
 		
 		// 리스트에 정수 추가
