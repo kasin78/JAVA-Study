@@ -14,7 +14,6 @@ public class Example_6 {
 		System.out.printf("%d점 -> %s\n", score1, grade(score1));
 		System.out.printf("%d점 -> %s\n", score2, grade(score2));
 		System.out.printf("%d점 -> %s\n", score3, grade(score3));
-
 	}
 	
 	public static String grade(int score) {

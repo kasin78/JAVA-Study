@@ -11,10 +11,10 @@ public class Example_4 {
 		
 	}
 	
-	Random random = new Random();
-	
 	public static int dice() {
-		return Math.random() * (6-1)+1;
+		Random random = new Random();
+		random.nextInt(7);
+		return diceNum; // 1~6 사이의 정수
 	}
 	
 	public static double exchange(double dollar) {
