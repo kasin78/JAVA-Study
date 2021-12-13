@@ -1,7 +1,6 @@
 package integerVariable;
 
 public class PrintOutput {
-
 	public static void main(String[] args) {
 		// 문자열 + 숫자 => 문자열
 		int x = 5;
@@ -21,7 +20,5 @@ public class PrintOutput {
 
 		double k = a + b;
 		System.out.printf("%.2f", k);
-
 	}
-
 }

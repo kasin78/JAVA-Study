@@ -1,10 +1,7 @@
 package school;
 
 public class App {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+	public static void main(String[] args) {	
 		// 학생 객체 만들기
 		Student s1 = new Student("펭수", 7);
 		Student s2 = new Student("길동", 17);
@@ -21,5 +18,4 @@ public class App {
 		System.out.println(s3.toString());
 		System.out.println(s4.toString());
 	}
-
 }

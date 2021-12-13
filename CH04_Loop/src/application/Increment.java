@@ -1,7 +1,6 @@
 package application;
 
 public class Increment {
-
 	public static void main(String[] args) {
 		// 증가*감소 연산자(1씩 증가 또는 감소)
 		int count = 0;
@@ -32,9 +31,8 @@ public class Increment {
 		
 		System.out.println(minus -= 1); // 3
 		
-		System.out.println(minus--); // 3 선출력, -1 => 2를 리턴
+		System.out.println(minus--); // 3 선출력, -1 => 2 리턴
 		
-		System.out.println(--minus); // 2-1 = 1을 리턴
+		System.out.println(--minus); // 2 - 1 = 1 리턴
 	}
-
 }

@@ -9,7 +9,7 @@ public class BooleanAndOr {
 		boolean haveUmbrella = false; // 우산을 쓰나?
 		
 		// 1
-		if ((isRaining || mightRain) && haveUmbrella) {
+		if ((isRaining || mightRain) && haveUmbrella) { // (true) && false = false
 			System.out.println("우산을 쓴다!");
 		}
 		else {
@@ -25,8 +25,5 @@ public class BooleanAndOr {
 		else {
 			System.out.println("우산을 쓰지 않는다");
 		}
-		
-
 	}
-
 }

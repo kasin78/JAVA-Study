@@ -45,7 +45,5 @@ public class App {
 		// 참조형 타입	(상속 관계일때)	
 		Cat cat1 = new HouseCat(); // 업캐스팅
 		HouseCat cat2 = (HouseCat)cat1; // 다운캐스팅
-		
 	}
-
 }

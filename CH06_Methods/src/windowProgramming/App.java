@@ -22,5 +22,4 @@ public class App {
 		System.out.println("위치 top : " + window.getTop());
 		System.out.println("위치 left : " + window.getLeft());
 	}
-
 }

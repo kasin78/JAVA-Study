@@ -3,7 +3,6 @@ package application;
 import java.util.Scanner;
 
 public class CheckPassword {
-
 	public static void main(String[] args) {
 		// 지정된 패스워드 입력시 '접속 승인', 아니면 '접속 불가'
 		final String USER_PASSWORD = "hello";
@@ -20,7 +19,5 @@ public class CheckPassword {
 		else {
 			System.out.println("접속 불가");
 		}
-
 	}
-
 }

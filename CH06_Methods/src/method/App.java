@@ -21,5 +21,4 @@ public class App {
 		p2.name = "라이언";
 		p2.sayHello();
 	}
-
 }

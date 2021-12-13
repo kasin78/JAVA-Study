@@ -1,7 +1,6 @@
 package application;
 
 public class StringArray {
-
 	public static void main(String[] args) {
 		// 문자열 타입으로 만든 배열
 		String[] animals = {"고양이", "개", "펭귄", "사자"};
@@ -16,5 +15,4 @@ public class StringArray {
 		
 		System.out.println(animals[0]);
 	}
-
 }

@@ -3,7 +3,6 @@ package application;
 import java.util.Scanner;
 
 public class If_ElseIf_Else_Ex {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
@@ -11,6 +10,7 @@ public class If_ElseIf_Else_Ex {
 		int x = scanner.nextInt();
 		scanner.close();
 		
+		// Else If문으로 표현
 		/* if (x == 1) {
 			System.out.println("헬로우");
 		}
@@ -37,11 +37,7 @@ public class If_ElseIf_Else_Ex {
 				break;
 			default:
 				System.out.println("잘못된 옵션입니다");
-				break;
-				
+				break;		
 		}
-		
- 
 	}
-
 }

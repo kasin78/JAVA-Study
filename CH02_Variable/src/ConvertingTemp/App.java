@@ -9,7 +9,5 @@ public class App {
 		
 		System.out.println(F + "F");
 		System.out.println("섭씨 " + C + "도는 화씨 " + F + "도이다");
-
 	}
-
 }

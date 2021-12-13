@@ -5,5 +5,4 @@ public class Tiger extends Cat {
 	public void vocal() {
 		System.out.println("어흥~");
 	}
-	
 }

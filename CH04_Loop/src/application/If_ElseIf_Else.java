@@ -3,7 +3,6 @@ package application;
 import java.util.Scanner;
 
 public class If_ElseIf_Else {
-
 	public static void main(String[] args) {
 		// 스캐너 가져오기
 		Scanner scanner = new Scanner(System.in);
@@ -23,11 +22,9 @@ public class If_ElseIf_Else {
 		else if (orange < peach) { // else if 문의 조건이 true일 경우 실행할 명령
 			System.out.println("복숭아가 오렌지보다 많음");
 		}
-		else { // if, else if 문의 조건 모두 false일 경우 실행할 명령
+		else { // if, else if 문의 조건 모두 false일 경우 실행할 명령 orange == peach
 			System.out.println("오렌지와 복숭아 수가 같음");
 		}
 		System.out.println("프로그램 Shutdown");
-
 	}
-
 }

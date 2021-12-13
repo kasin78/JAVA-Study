@@ -1,7 +1,6 @@
 package application;
 
 public class Final {
-
 	public static void main(String[] args) {
 		// 변수 앞에 final이 붙으면 상수(변하지 않는 값)
 		
@@ -14,7 +13,5 @@ public class Final {
 		// USER_PASSWORD = "ABC";
 		
 		System.out.println(USER_PASSWORD);
-
 	}
-
 }

@@ -8,9 +8,8 @@ public class BooleanOr {
 		boolean mightRain = false; // 비가 올 가능성이 있나?
 		boolean takeUmbrella = false; // 우산을 쓰나?
 		
-		takeUmbrella = isRaining || mightRain;
+		takeUmbrella = isRaining || mightRain; // true || false = true
 		
 		System.out.println(takeUmbrella);
 	}
-
 }

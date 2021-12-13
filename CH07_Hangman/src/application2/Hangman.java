@@ -1,6 +1,5 @@
 package application2;
 
-import java.util.Random;
 import java.util.Scanner;
 
 public class Hangman {
@@ -37,8 +36,5 @@ public class Hangman {
 	
 	private void checkUserInput() {
 		System.out.println("체크");
-		
 	}
-
-	
 }

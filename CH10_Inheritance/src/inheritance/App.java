@@ -12,7 +12,5 @@ public class App {
 		Bird bird = new Bird();
 		bird.eat(); // 상속받은 메소드, 원래 Animal 클래스 메소드인데 상속받았기에 Bird 클래스도 사용가능
 		bird.fly();
-
 	}
-
 }

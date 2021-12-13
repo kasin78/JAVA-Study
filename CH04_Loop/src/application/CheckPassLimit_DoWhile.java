@@ -3,7 +3,6 @@ package application;
 import java.util.Scanner;
 
 public class CheckPassLimit_DoWhile {
-
 	public static void main(String[] args) {
 		// 패스워드가 틀리더라도 3번 입력할 수 있는 기회를 준다
 		// 패스워드가 맞으면 "접속 승인" 출력, 반복문 빠져나옴
@@ -31,17 +30,6 @@ public class CheckPassLimit_DoWhile {
 			}
 			count++;	
 		} while (!password.equals(USER_PASSWORD));
-		
 		scanner.close();
-		
-
-		
-			
-		
-		
-		
-		
-	
 	}
-
 }

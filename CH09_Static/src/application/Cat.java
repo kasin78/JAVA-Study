@@ -26,7 +26,4 @@ public class Cat {
 	public String toString() {
 		return "Cat [이름=" + name + ", id=" + id + "]";
 	}
-	
-
-	
 }

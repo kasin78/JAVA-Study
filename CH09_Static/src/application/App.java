@@ -27,5 +27,4 @@ public class App {
 		System.out.println(Cat.getCount());
 		System.out.println(cat3.toString());
 	}
-
 }

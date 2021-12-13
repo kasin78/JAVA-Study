@@ -17,5 +17,4 @@ public class App {
 		cat3.vocal();
 		cat3.hunt();
 	}
-
 }

@@ -3,7 +3,6 @@ package application;
 import java.util.Scanner;
 
 public class If_Else {
-
 	public static void main(String[] args) {
 		// 스캐너 가져오기
 		Scanner scanner = new Scanner(System.in);
@@ -24,7 +23,5 @@ public class If_Else {
 			System.out.println("복숭아가 오렌지보다 많음");
 		}
 		System.out.println("프로그램 Shutdown");
-
 	}
-
 }

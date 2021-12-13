@@ -1,7 +1,6 @@
 package Application;
 
 public class Printing {
-
 	public static void main(String[] args) {
 		// 문자열 (+), 출력
 		String name = "홍길동";
@@ -12,7 +11,5 @@ public class Printing {
 		
 		System.out.println(text + name + endOfSentence);
 						// 나의 이름 : + 홍길동 + .
-
 	}
-
 }

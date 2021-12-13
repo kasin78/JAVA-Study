@@ -3,6 +3,7 @@ package application;
 public class MultiArray_Q {
 
 	public static void main(String[] args) {
+		// 배열 전체 숫자의 합?
 		int[][] values = {
 				{1, 5, 7}, 
 				{9, 6, 3}, 
@@ -15,10 +16,7 @@ public class MultiArray_Q {
 			for (int j = 0; j < values[i].length; j++) {
 				total += values[i][j];
 			}		
-		}
-		
+		}		
 		System.out.println("총합 : " + total);
-
 	}
-
 }

@@ -27,15 +27,17 @@ public class Person {
 		return name;
 	}
 	
-	// toString 메소드
-		public String toString() {
-			return "이름 : " + name + ", 키 : " + height;
-		}
-	
 	public void setHeight (double height) {
 		this.height = height;
 	}
 	public double getHeight () {
 		return height;
 	}
+	
+	// toString 메소드
+	public String toString() {
+		return "이름 : " + name + ", 키 : " + height;
+	}
+	
+	
 }

@@ -1,7 +1,6 @@
 package getterSetter;
 
 public class App {
-
 	public static void main(String[] args) {
 		// 인스턴스 변수에 접근하는 메소드 get 과 set
 		Person p1 = new Person();
@@ -20,5 +19,4 @@ public class App {
 		p2.setAge(10); 
 		System.out.println(p2.getAge()); 
 	}
-
 }

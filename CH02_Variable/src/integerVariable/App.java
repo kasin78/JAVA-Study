@@ -1,7 +1,6 @@
 package integerVariable;
 
 public class App {
-
 	public static void main(String[] args) {
 		// 변수 만들기 : 1. 변수선언(타입, 자료형), 2. 변수 초기화
 		int x = 10;
@@ -25,5 +24,4 @@ public class App {
 	// double 실수
 	// char 문자(1개)
 	// boolean 논리형(true, false)
-	
 }

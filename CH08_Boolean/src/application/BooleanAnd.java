@@ -1,7 +1,6 @@
 package application;
 
 public class BooleanAnd {
-
 	public static void main(String[] args) {
 		// A && B => A, B 모두 참일때만 참
 		boolean isRaining = true; // 비가 오는가?
@@ -26,5 +25,4 @@ public class BooleanAnd {
 		takeUmbrella = isRaining && haveUmbrella ? true : false;
 		System.out.println("3번째 : " + takeUmbrella);
 	}
-
 }

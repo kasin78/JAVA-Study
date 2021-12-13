@@ -29,19 +29,11 @@ public class CheckPassLimit {
 				System.out.printf("비번이 %d번 틀렸습니다. \n", i);
 			}
 		}
-		
 		scanner.close();
 		
 		if(!accessOK) { // if는 () 내용이 true일 때만 명령 실시, accessOK가 false 따라서 !accessOK는 true
 						// password를 맞추게 되면 accessOK는 true가 되고 !accessOK는 false 따라서 이 조건문은 실행이 안됨
 			System.out.println("접속 거부");
 		}
-			
-		
-		
-		
-		
-	
 	}
-
 }

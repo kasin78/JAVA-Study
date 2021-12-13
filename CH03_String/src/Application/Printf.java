@@ -20,7 +20,5 @@ public class Printf {
 		double pi = 3.14592;
 		System.out.printf("파이의 값 : %f \n", pi);
 		System.out.printf("파이의 값 : %.2f", pi); // 소수점 2자리까지
-
 	}
-
 }

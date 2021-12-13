@@ -13,22 +13,20 @@ public class If {
 			// if (조건문) {
 			//    명령문
 			// }
-			
+		
 		int apple = 10;
 		int banana = 5;
 		
 		if (apple < banana) {
 			System.out.println("사과가 바나나보다 많음");
 		}
-		
-		
-			System.out.print("==============\n");
-		
-		
-		System.out.print("오렌지의 갯수는?");
+			
+		System.out.print("==============\n");
+			
+		System.out.print("오렌지의 갯수는? ");
 		int orange = scanner.nextInt();
 				
-		System.out.print("복숭아의 갯수는?");
+		System.out.print("복숭아의 갯수는? ");
 		int peach = scanner.nextInt();
 		
 		// 스캐너 종료(더이상 사용 안 할때)
@@ -42,5 +40,4 @@ public class If {
 		}
 		System.out.println("프로그램 Shutdown");
 	}
-
 }

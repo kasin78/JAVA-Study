@@ -1,7 +1,6 @@
 package application;
 
 public class Break {
-
 	public static void main(String[] args) {
 		// 반복문 안에서 break; 사용시 빠져나옴
 		int count = 0;
@@ -14,9 +13,7 @@ public class Break {
 			}
 			System.out.println("How are U?");
 			count++;
-		}
-		
+		}	
 		System.out.println("종료");
 	}
-
 }

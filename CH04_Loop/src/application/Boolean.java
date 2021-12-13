@@ -1,7 +1,6 @@
 package application;
 
 public class Boolean {
-
 	public static void main(String[] args) {
 		// boolean 타입은 true(참), false(거짓)
 		boolean c1 = false;
@@ -14,14 +13,13 @@ public class Boolean {
 		boolean c3 = 4 > 5;
 		System.out.println("조건 3 : " + c3);
 		
-		// == : 같다 = 참, 같지 않다 = 거짓
+		// == : 같다 = true, 같지 않다 = false
 		boolean c4 = 4 == 5;
 		System.out.println("조건 4 : " + c4);
 		
-		// != : 같다 = 거짓, 같지 않다 = 참
+		// != : 같다 = false, 같지 않다 = true
 		boolean c5 = 4 != 5;
 		System.out.println("조건 5 : " + c5);
 		System.out.printf("조건 5 : %b", c5); // boolean은 %b로 printf에 사용
 	}
-
 }

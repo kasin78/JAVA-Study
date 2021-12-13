@@ -45,5 +45,4 @@ public class Window {
 	public int getLeft() {
 		return left;
 	}
-	
 }

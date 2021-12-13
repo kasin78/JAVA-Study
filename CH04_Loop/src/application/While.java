@@ -1,7 +1,6 @@
 package application;
 
 public class While {
-
 	public static void main(String[] args) {
 		// While 반복문
 			// 조건이 true일 경우 명령문이 계속 반복됨
@@ -10,10 +9,8 @@ public class While {
 		//    명령문
 		// }
 				
-		while(true) {
+		while(true) { // 조건이 true이므로 무한 반복
 			System.out.println("헬로우 월드!");
 		}
-
 	}
-
 }
