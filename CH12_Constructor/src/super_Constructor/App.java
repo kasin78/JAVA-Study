@@ -1,7 +1,6 @@
 package super_Constructor;
 
 public class App {
-
 	public static void main(String[] args) {
 		// super() 생성자
 		Employee e1 = new Employee();
@@ -9,7 +8,5 @@ public class App {
 		
 		Employee e2 = new Employee("펭수");
 		System.out.println(e2);
-
 	}
-
 }

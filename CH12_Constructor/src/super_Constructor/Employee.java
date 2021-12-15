@@ -1,6 +1,5 @@
 package super_Constructor;
 
-
 public class Employee extends Person { // Employee는 Person으로부터 상속 받음(자식)
 	public Employee() {
 		super("익명"); // 부모클래스의 생성자, 기본적으로 super();가 생략되어있음

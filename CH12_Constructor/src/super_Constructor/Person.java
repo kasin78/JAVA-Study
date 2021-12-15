@@ -18,5 +18,4 @@ public class Person { // 부모
 	public String toString() {
 		return name;
 	}
-	
 }

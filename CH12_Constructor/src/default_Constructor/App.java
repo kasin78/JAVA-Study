@@ -13,5 +13,4 @@ public class App {
 		Person p3 = new Person("홍길동", 18);
 		System.out.println(p3);
 	}
-
 }

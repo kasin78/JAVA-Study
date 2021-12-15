@@ -1,7 +1,6 @@
 package this_Constructor;
 
 public class App {
-
 	public static void main(String[] args) {
 		// this 생성자
 		Person p1 = new Person();
@@ -13,5 +12,4 @@ public class App {
 		Person p3 = new Person("홍길동", 18);
 		System.out.println(p3);
 	}
-
 }

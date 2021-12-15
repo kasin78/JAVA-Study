@@ -10,8 +10,5 @@ public class App {
 		person.greet("펭수");
 		person.greet(186);
 		person.greet("라이언", 130);
-		
-
 	}
-
 }

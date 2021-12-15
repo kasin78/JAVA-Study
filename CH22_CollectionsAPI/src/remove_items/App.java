@@ -29,7 +29,5 @@ public class App {
 		cats.remove(c1); // 객체 주소 삭제
 		
 		cats.forEach(System.out::println);
-
 	}
-
 }

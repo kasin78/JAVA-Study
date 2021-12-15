@@ -24,6 +24,4 @@ public class Person {
 		}
 		System.out.println("헬로우~~" + name);
 	}
-	
-	
 }

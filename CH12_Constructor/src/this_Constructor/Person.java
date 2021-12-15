@@ -1,7 +1,6 @@
 package this_Constructor;
 
 public class Person {
-	
 	private String name; // 이름
 	private int age;     // 나이
 	
@@ -23,8 +22,4 @@ public class Person {
 	public String toString() {
 		return "Person [이름 = " + name + ", 나이 = " + age + "]";
 	}
-	
-	
-	
-	
 }
