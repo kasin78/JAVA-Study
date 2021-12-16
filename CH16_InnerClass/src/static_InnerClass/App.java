@@ -14,10 +14,6 @@ public class App {
 		
 		// 2. 스태틱 내부 클래스 (외부클래스 이름으로 객체생성)
 		Person.Body body = new Person.Body();
-		body.print();
-		
-		
-		
+		body.print();	
 	}
-
 }

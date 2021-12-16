@@ -39,5 +39,4 @@ public class App {
 	public void activate(Runnable runnable) {
 		runnable.run(); // 인터페이스의 추상메소드 실행
 	}
-
 }

@@ -14,9 +14,6 @@ public class App {
 //			mainFrame.setSize(600, 400); // 가로 600, 세로 400
 //			mainFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // 창을 종료시 프로그램 종료, 이거 없으면 창을 종료해도 밑에 console 중지시켜야 프로그램 종료
 //			mainFrame.setVisible(true); // 창을 보이게 함
-
-		});
-			
+		});		
 	}
-
 }

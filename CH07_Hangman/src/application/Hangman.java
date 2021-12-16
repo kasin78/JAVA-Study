@@ -52,5 +52,4 @@ public class Hangman {
 	public void close() {
 		scanner.close();
 	}
-	
 }

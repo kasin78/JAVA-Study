@@ -11,5 +11,4 @@ public class App {
 		new Game().run();
 		// 클래스 불러오기 ctrl + 스페이스 or ctrl + shift + o
 	}
-
 }

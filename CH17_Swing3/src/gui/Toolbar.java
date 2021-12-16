@@ -47,11 +47,11 @@ public class Toolbar extends JToolBar {
 		
 		// 버튼에 이벤트를 연결('클릭' 이벤트) => 익명 클래스로 표현, 레드는 람다식(추후 배움)
 		redButton.addActionListener(e -> mainPanel.setBackground(Color.RED)); 
-		
-		blueButton.addActionListener(new ActionListener() {
+		blueButton.addActionListener(e -> mainPanel.setBackground(Color.BLUE));
+		/*blueButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				mainPanel.setBackground(Color.BLUE);
 			}
-		});
+		}); */
 	}
 }

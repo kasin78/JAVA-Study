@@ -7,7 +7,5 @@ public class App {
 		System.out.println("하나");
 		Thread.sleep(2000); // 프로그램 2초 대기 => 예외처리 해야 함
 		System.out.println("둘");
-
 	}
-
 }

@@ -5,8 +5,7 @@ public class App implements Runnable {
 	private String name = "미키 마우스";
 	
 	public static void main(String[] args) {
-		new App().start();
-		
+		new App().start();	
 	}
 
 	private void start() {
@@ -37,6 +36,4 @@ public class App implements Runnable {
 	public void run() {
 		System.out.println(name);
 	}
-	
-
 }

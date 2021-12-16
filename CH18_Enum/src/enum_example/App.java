@@ -10,9 +10,5 @@ public class App {
 		System.out.println(f1);
 		System.out.println(f2);
 		System.out.println(f1 == f2);
-		
-	
-
 	}
-
 }

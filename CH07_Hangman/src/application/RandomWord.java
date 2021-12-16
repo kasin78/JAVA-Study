@@ -54,7 +54,6 @@ public class RandomWord {
 				characters[i] = c;
 			}
 		}
-		
 	}
 	
 	public boolean isCompleted() {

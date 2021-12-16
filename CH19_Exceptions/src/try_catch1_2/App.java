@@ -29,5 +29,4 @@ public class App {
 			System.out.println("입력한 숫자 : " + number);
 		}
 	}
-
 }

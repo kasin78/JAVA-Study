@@ -4,7 +4,7 @@ public class App {
 	public static void main(String[] args) {
 	// enum에서 사용하는 메소드
 		
-	// values() :  enum의 모든 상수들을 배열로 리턴
+	// values() : enum의 모든 상수들을 배열로 리턴
 		Fruit[] fruits = Fruit.values(); 
 			for(Fruit f : fruits) {
 				System.out.println(f);
@@ -29,6 +29,5 @@ System.out.println("================");
 		Fruit f1 = Fruit.valueOf("ORANGE");
 		System.out.println(f1);
 		System.out.println(f1 == Fruit.ORANGE);
-		
 	}
 }

@@ -15,5 +15,4 @@ public enum GameObject { // 이전의 가위바위보 객체 대신에 가위바
 	public int compare(GameObject ob) {
 		return comparison[this.ordinal()][ob.ordinal()]; // enum 끼리 비교해서 인덱스 번호로 비교
 	}
-	
 }

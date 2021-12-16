@@ -24,5 +24,4 @@ public class App {
 		}
 		new Printer().print();	
 	}
-
 }
