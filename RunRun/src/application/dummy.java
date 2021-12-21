@@ -1,15 +1,18 @@
 package application;
 
-import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Random;
 
 public class dummy {
 
 	public static void main(String[] args) {
-		Scanner stopGo = new Scanner(System.in);
-		String Lucky = stopGo.next().toLowerCase();
-		System.out.printf("탐험을 계속하시겠습니까? y/n " + "%s", Lucky);
+		int thisTreasure;
+		Random thisFlip = new Random();
+		List<Integer> treasureCards = new ArrayList<>(Arrays.asList());
+//		thisTreasure = treasureCards.get(thisFlip.nextInt(treasureCards.size()));
+		System.out.println(treasureCards.size());
 		
-
+		}
 	}
-
-}
