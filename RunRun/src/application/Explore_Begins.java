@@ -11,7 +11,5 @@ public class Explore_Begins {
 		//Rule start = new Rule();
 		//start.run();
 		new Rule().run();
-		
-		// 탐험 지속할 때 카운트 안 늘게만 하면 기본 완성
 	}
 }
