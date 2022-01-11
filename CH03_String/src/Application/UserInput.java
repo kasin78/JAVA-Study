@@ -12,6 +12,8 @@ public class UserInput {
 		System.out.println(x);
 		
 		System.out.print("문자열을 입력해주세요 : ");
+		// next() : 문자열 띄어지면 띄어지기 전까지만 인식
+		// nextLine() : 엔터치기 전까지 입력된 모든 문자열 인식
 		String y = scanner.next(); // 스캐너로 문자열 입력을 받아 y에 입력, 실행시 입력을 대기하고 엔터키가 입력되면 종료
 		System.out.println(y);
 

@@ -12,7 +12,7 @@ public class LoopArray {
 		System.out.println(animals[3]); 
 	 */
 		
-		// for 반복문 인덱스 번호 i로, 배열.length는 배열의 사이즈(크기)를 알려준다
+		// for 반복문 인덱스 번호 i로, 배열.length는 배열의 사이즈(크기)를 알려준다, 현재 animals의 길이는 5
 		System.out.println(animals.length);
 		
 		for (int i = 0; i < animals.length; i++) {

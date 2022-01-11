@@ -10,6 +10,6 @@ public class Printing {
 		String endOfSentence = ".";
 		
 		System.out.println(text + name + endOfSentence);
-						// 나의 이름 : + 홍길동 + .
+						// 나의 이름 : 홍길동.
 	}
 }

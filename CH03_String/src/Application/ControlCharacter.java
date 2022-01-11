@@ -14,8 +14,9 @@ public class ControlCharacter {
 		
 	System.out.println("======================");
 		// System.out.print(); : 공백 없이 문자열 출력
-		System.out.print("이것은 ");
-		System.out.print("줄을 ");
-		System.out.print("안 내립니다.");	
+		// 이것은줄을안 내립니다
+		System.out.print("이것은");
+		System.out.print("줄을");
+		System.out.print("안 내립니다");	
 	}
 }
